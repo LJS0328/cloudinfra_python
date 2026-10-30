@@ -1,7 +1,7 @@
 # 한줄 주석입니다.
 
 '''
-    여기는 여러줄 주석합니다.
+    여기는 여러줄 주석입니다.
     어쩌구.. 저쩌구...
 '''
 
@@ -11,17 +11,18 @@
     두울
 """
 
-#python의 여러가지 데이터 type에 대해서 알아보자
+# python 의 여러가지 데이터 type 에대해서 알아보자
 
-#int type
+
+# int type
 num1 = 10
-#float type
+# float type
 num2 = 10.1
 
 # str type (문자열)
-myName = '김구라'
-yourName = "해골"
-ourName = """
+myName = '김구라' # single quotation 
+yourName = "해골" # double quotation
+ourName = """    
     KT Cloud Infra
     화이팅!
 """
@@ -30,7 +31,7 @@ ourName2 = '''
     화이팅!
 '''
 
-# 참과 거짓을 나타내느 bool type
+# 참과 거짓을 나타내는 bool type 
 isRun = True
 isWait = False
 
@@ -38,13 +39,17 @@ isWait = False
 # dict type
 mem1 = {"num":1, "name":"김구라", "addr":"노량진"}
 mem2 = {"num":2, "name":"해골", "addr":"행신동"}
-mem3 = {"num":3, "name":"원숭이","addr":"동물원"}
+mem3 = {"num":3, "name":"원숭이", "addr":"동물원"}
 
 # 순서가 중요한 데이터를 하나의 묶음으로 관리하기 위한 데이터 type
 # list type
-foods = ["삽겹살","김밥", "떡볶이"]
+foods = ["삼겹살","김밥","떡복기"]
 nums = [10, 20, 30]
 
-# tuple type(list의 read only 버전)
-food2 = ("짜장면", "족발", "샐러드")
+# tuple type (list 의 read only 버전)
+foods2 = ("짜장면","족발","셀러드")
 nums2 = (10.1, 10.2, 10.3)
+
+
+
+
